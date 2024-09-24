@@ -4,15 +4,7 @@ This project demonstrates how to apply Retrieval-Augmented Generation (RAG) usin
 
 The workflow involves loading the scripts in PDF format, chunking them into smaller parts, and creating embeddings to build a vector database. Using the RAG technique, the system retrieves the most relevant chunks from the scripts and generates answers using Llama 3.1.
 
-## Prerequisites
-
-1. **Ollama**: To run the model locally, you need to install Ollama. Follow the instructions below.
-2. **Python 3.8+**
-3. **Dependencies**: Listed in `requirements.txt`.
-
-## How to Install and Run
-
-### Step 1: Install Ollama
+### Install Ollama
 
 Ollama is used to run the Llama 3.1 model locally. Follow the instructions to install it:
 
